@@ -144,9 +144,9 @@ hans_crm/
 ## Lampiran Dokumentasi
 Dokumentasi teknis tersedia di folder `lampiran/`:
 
-`erd_pt_smart_crm.drawio` = Entity Relationship Diagram, buka dengan Draw.io
-`database_schema.sql` = SQL schema untuk membuat tabel database
-`data_dictionary.md` = Penjelasan setiap kolom tabel
+- `erd_pt_smart_crm.drawio` = Entity Relationship Diagram, buka dengan Draw.io
+- `database_schema.sql` = SQL schema untuk membuat tabel database
+- `data_dictionary.md` = Penjelasan setiap kolom tabel
 
 ## Timeline Pengerjaan
 
