@@ -86,9 +86,9 @@ Akses aplikasi di: http://localhost:8000
 
 ## Akun Default
 
-Admin = admin@ptsmart.com - password
-Manager = manager@ptsmart.com - password
-Sales = sales@ptsmart.com - password
+- Admin = admin@ptsmart.com - password
+- Manager = manager@ptsmart.com - password
+- Sales = sales@ptsmart.com - password
 
 ## Struktur Role
 
