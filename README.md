@@ -1,8 +1,15 @@
 # PT. Smart CRM
-Customer Relationship Management (CRM) untuk PT. Smart - Perusahaan Penyedia Layanan Internet.
 
 ## Deskripsi
 Aplikasi CRM ini digunakan untuk mengelola proses bisnis dari lead (calon customer) hingga menjadi customer aktif. Sistem memiliki approval project oleh manager sebelum lead menjadi customer.
+
+## Demo
+🌐 **Live Demo:** [https://hanscrm-production.up.railway.app](https://hanscrm-production.up.railway.app)
+
+**Akun Demo:**
+- Admin: admin@ptsmart.com / password
+- Manager: manager@ptsmart.com / password
+- Sales: sales@ptsmart.com / password
 
 ## Fitur Utama
 
@@ -30,7 +37,7 @@ Aplikasi CRM ini digunakan untuk mengelola proses bisnis dari lead (calon custom
 - Admin dapat membuat, edit, dan hapus user Manager/Sales
 - Role-based access control
 
-## Instalasi
+## Instalasi Manual
 
 ### 1. Clone Repository
 
@@ -137,16 +144,22 @@ hans_crm/
 ├── lampiran/
 │   ├── erd_pt_smart_crm.drawio   # ERD diagram
 │   ├── database_schema.sql       # SQL schema database
-│   └── data_dictionary.md        # Data dictionary
+│   ├── data_dictionary.md        # Data dictionary
+│   └── flowchart.md              # Flowchart alur aplikasi
 └── README.md
 ```
 
 ## Lampiran Dokumentasi
-Dokumentasi teknis tersedia di folder `lampiran/`:
+Dokumentasi teknis ada di folder `lampiran/`:
 
-- `erd_pt_smart_crm.drawio` = Entity Relationship Diagram, buka dengan Draw.io
-- `database_schema.sql` = SQL schema untuk membuat tabel database
-- `data_dictionary.md` = Penjelasan setiap kolom tabel
+| File | Deskripsi |
+|------|-----------|
+| `erd_pt_smart_crm.drawio` | Entity Relationship Diagram (buka dengan Draw.io) |
+| `erd_pt_smart_crm.drawio.png` | Gambar ERD dalam format PNG |
+| `database_schema.sql` | SQL schema untuk membuat tabel database |
+| `data_dictionary.md` | Penjelasan setiap kolom tabel |
+| `flowchart.md` | Flowchart alur aplikasi dalam format Mermaid |
+| `flowchart.png` | Gambar flowchart dalam format PNG |
 
 ## Timeline Pengerjaan
 
@@ -159,9 +172,12 @@ Dokumentasi teknis tersedia di folder `lampiran/`:
 - 30 Des 2025 18:00 = Merapikan UI
 - 30 Des 2025 20:00 = Technical Testing
 - 30 Des 2025 21:00 = Membuat dokumentasi
+- 31 Des 2025 16:00 = Membuat flowchart
+- 31 Des 2025 16:30 = Deploy ke Railway
 
 ## Teknologi yang Digunakan
 - **Backend:** Laravel 11
 - **Frontend:** Blade, Tailwind CSS
 - **Database:** PostgreSQL
 - **Authentication:** Laravel Breeze
+- **Deployment:** Railway
